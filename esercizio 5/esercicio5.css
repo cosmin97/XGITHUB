@@ -1,0 +1,104 @@
+/* Stili per il body */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+ h1{
+        color: cadetblue ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-align:center;
+      
+    }
+
+/* Stili per l'header */
+.sfondo-nero{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.sezione{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+
+
+.logo {
+    max-width: 30%;
+    max-height: 100%;
+
+
+}
+
+
+
+
+
+/* Stili per il main */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Stili per il box immagine a cerchio */
+.main-box {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.main-box img {
+    border-radius: 50%;
+    width: 150px; /* Dimensione dell'immagine */
+    height: 150px; /* Dimensione dell'immagine */
+    display: block;
+    margin: 0 auto 10px
+
+}
+
+/* Stili per il box immagine e testo */
+div {
+    margin-top: 20px;
+}
+
+div p {
+    font-style: italic;
+}
+
+div img {
+    width: 100%; /* Larghezza dell'immagine */
+    height: auto; /* Altezza proporzionale */
+}
+.container-cerchio{
+ 
+        width: 200px; /* Imposta la larghezza del cerchio */
+        height: 200px; /* Imposta l'altezza del cerchio */
+        border-radius: 50%; /* Rendi il contenitore un cerchio */
+        overflow: hidden; /* Nasconde eventuali parti dell'immagine che escono dal cerchio */
+        position: relative; /* Imposta la posizione relativa per l'immagine */
+        text-align: center;
+    }
+    
+    .circle-container img {
+        width: 100%; /* Imposta la larghezza dell'immagine al 100% del contenitore */
+        height: auto; /* Imposta l'altezza automaticamente per mantenere le proporzioni */
+        position: absolute; /* Imposta la posizione assoluta per l'immagine */
+        top: 0; /* Allinea l'immagine in alto */
+        left: 0; /* Allinea l'immagine a sinistra */
+        border-radius: 50%; /* Rendi l'immagine un cerchio */
+    }
+section{
+    background-color: red;
+    padding: 20px
+}
+section {color: white;}
+
+footer{
+    background-color: aqua;
+}
