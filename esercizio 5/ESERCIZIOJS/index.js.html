@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <script src="./D2.js"></script>
+</head>
+<body>
+
+    <script>
+        // Funzione per verificare se un numero è divisibile per 5
+        function divisibilePer5(numero) {
+            if (numero % 5 === 0) {
+                console.log(numero + " è divisibile per 5");
+            } else {
+                console.log(numero + " non è divisibile per 5");
+            }
+        }
+
+       
+        var numeroDaControllare = 15;
+        divisibilePer5(numeroDaControllare);
+
+
+        // Funzione per verificare se uno dei due numeri è uguale a 8
+// oppure se la loro somma/differenza è uguale a 8
+// Funzione per verificare se uno dei due numeri è uguale a 8
+// oppure se la loro somma/differenza è uguale a 8
+function verificaNumero(numero1, numero2) {
+    if (numero1 === 8 || numero2 === 8 || numero1 + numero2 === 8 || Math.abs(numero1 - numero2) === 8) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+// Esempio di utilizzo
+var numero1 = 3;
+var numero2 = 5;
+if (verificaNumero(numero1, numero2)) {
+    console.log("Uno dei due numeri è 8 oppure la loro somma/differenza è 8.");
+} else {
+    console.log("Nessuna delle condizioni richieste è soddisfatta.");
+}
+
+
+var totalShoppingCart = 60; // Esempio di saldo totale del carrello
+
+var shippingCost = 10;  // Costo fisso della spedizione
+function calculateTotalAmount(totalShoppingCart, shippingCost) {
+    if (totalShoppingCart > 50) {
+        return totalShoppingCart;
+    } else {
+        return totalShoppingCart + shippingCost;
+    }
+}
+var totalAmountToCharge = calculateTotalAmount(totalShoppingCart, shippingCost);
+
+console.log("L'ammontare totale da addebitare all'utente per il checkout è: $" + totalAmountToCharge.toFixed(2));
+
+
+
+var totalShoppingCart = 60; // saldo totale del carrello
+var shippingCost = 10;
+var blackFridayDiscount = 0.20;
+
+function calculateTotalAmount(totalShoppingCart, shippingCost, blackFridayDiscount) {
+    var discountedTotal = totalShoppingCart - (totalShoppingCart * blackFridayDiscount);
+    if (discountedTotal > 50) {
+        return discountedTotal;
+    } else {
+        return discountedTotal + shippingCost;
+    }
+}
+
+var totalAmountToCharge = calculateTotalAmount(totalShoppingCart, shippingCost, blackFridayDiscount);
+
+console.log("L'ammontare totale da addebitare all'utente per il checkout è: $" + totalAmountToCharge.toFixed(2));
+
+
+// Definizione delle tre variabili
+var num1 = 15;
+var num2 = 7;
+var num3 = 22;
+
+// Blocco condizionale per ordinare le variabili
+if (num1 >= num2 && num1 >= num3) {
+    if (num2 >= num3) {
+        console.log(num1, num2, num3);
+    } else {
+        console.log(num1, num3, num2);
+    }
+} else if (num2 >= num1 && num2 >= num3) {
+    if (num1 >= num3) {
+        console.log(num2, num1, num3);
+    } else {
+        console.log(num2, num3, num1);
+    }
+} else {
+    if (num1 >= num2) {
+        console.log(num3, num1, num2);
+    } else {
+        console.log(num3, num2, num1);
+    }
+}
+// Funzione per verificare se il valore fornito è un numero
+function isNumber(value) {
+    return typeof value === 'number';
+}
+
+// Esempi di utilizzo
+console.log(isNumber(5));      // Output: true
+console.log(isNumber('hello')); // Output: false
+console.log(isNumber(true));    // Output: false
+
+
+// Funzione per verificare se un numero è pari o dispari
+function checkEvenOrOdd(number) {
+    if (number % 2 === 0) {
+        return "Il numero è pari";
+    } else {
+        return "Il numero è dispari";
+    }
+}
+
+console.log(checkEvenOrOdd(6)); // Output: "Il numero è pari"
+console.log(checkEvenOrOdd(7)); // Output: "Il numero è dispari"
+
+
+let val = 7;
+
+if (val < 5) {
+    console.log("Meno di 5");
+} else if (val < 10) {
+    console.log("Meno di 10");
+} else {
+    console.log("Uguale a 10 o maggiore");
+}
+
+const me = {
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css']
+};
+
+// Aggiunta della proprietà "city" con il valore "Toronto"
+me.city = 'Toronto';
+
+console.log(me);
+
+const me = {
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css']
+};
+
+// Rimozione della proprietà "lastName"
+delete me.lastName;
+
+console.log(me);
+
+const me = {
+  name: 'John',
+  lastName: 'Doe',
+  skills: ['javascript', 'html', 'css']
+};
+
+// Rimozione dell'ultimo elemento della proprietà "skills"
+me.skills.pop();
+
+console.log(me);
+
+// Creazione di un array vuoto
+let numbers = [];
+
+// Riempimento dell'array con i numeri da 1 a 10
+for (let i = 1; i <= 10; i++) {
+    numbers.push(i);
+}
+
+console.log(numbers);
+
+
+
+
+
+    </script>
+</body>
+</html>
+</body>
+</html>
