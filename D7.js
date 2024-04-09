@@ -66,17 +66,7 @@ console.log(lunghezze(['EPICODE', 'is', 'great']))
 /* ESERCIZIO 8 (forEach o for)
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
-const onlyDispari = () => {
-  const array = []
-  for (let i = 0; i < 100; i++) {
-    if (i % 2 !== 0) {
-      array.push(i)
-    }
-  }
-  return array
-}
 
-console.log(onlyDispari())
 /* Questo array di film verrà usato negli esercizi a seguire. Non modificarlo e scorri oltre per riprendere gli esercizi :) */
 const movies = [
   {
@@ -240,20 +230,12 @@ console.log(millennioCorrente(movies))
 /* ESERCIZIO 13 (reduce)
   Scrivi una funzione per calcolare la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array fornito.
 */
-let sommaAnni = (array) => {
-  return array.reduce((acc, curr) => acc + parseInt(curr.Year), 0)
-}
 
-console.log(sommaAnni(movies))
 
 /* ESERCIZIO 14 (find)
   Scrivi una funzione per ottenere dall'array fornito uno specifico film (la funzione riceve un imdbID come parametro).
 */
-let getMovieById = function (array, id) {
-  return array.find((elem) => elem.imdbID === id)
-}
 
-console.log(getMovieById(movies, 'tt0355702'))
 
 /* ESERCIZIO 15 (findIndex)
   Scrivi una funzione per ottenere dall'array fornito l'indice del primo film uscito nell'anno fornito come parametro.
