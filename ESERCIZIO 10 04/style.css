@@ -1,0 +1,16 @@
+.container {
+    background-color: blueviolet;
+    max-width: 400px;
+    margin: 0 auto;
+}
+body {
+    background-color: blueviolet;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
