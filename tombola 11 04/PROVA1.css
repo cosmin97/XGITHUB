@@ -1,0 +1,17 @@
+.cella {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: 2px;
+}
+
+.evidenziata {
+    background-color:darkgreen;
+}
+body {
+    background-color:gray;
+    text-align: center;
+}
