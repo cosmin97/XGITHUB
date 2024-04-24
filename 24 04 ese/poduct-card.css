@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: yellow; /* Background giallo per l'header */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Disposizione orizzontale della lista */
+  }
+  
+  nav ul li {
+    background-color: #FFA500; /* Background arancione per ogni elemento della lista */
+    padding: 10px; /* Spaziatura interna */
+    margin-right: 10px; /* Margine destro tra gli elementi */
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  article.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 1em;
+  }
+  
+  .text-container {
+    padding: 0 1em;
+  }
+  
+  .text-container button {
+    width: 100%;
+    margin-top: 1em;
+  }
+  
