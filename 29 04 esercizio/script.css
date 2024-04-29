@@ -1,0 +1,23 @@
+/* Stili personalizzati */
+.custom-bg-blue {
+    background-color: blue;
+  }
+  .custom-bg-yellow {
+    background-color: yellow;
+  }
+  .custom-bg-green {
+    background-color: green;
+  }
+  .custom-bg-red {
+    background-color: red;
+  }
+  .custom-bg-lightblue {
+    background-color: lightblue;
+  }
+  .custom-bg-gray {
+    background-color: gray;
+  }
+  .custom-bg-dark {
+    background-color: #333;
+  }
+  

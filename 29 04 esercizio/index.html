@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./script.css">
+  <title>Pratica con il Grid System e più desiderato</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Stili personalizzati */
+    .custom-bg-blue {
+      background-color: blue;
+    }
+    .custom-bg-yellow {
+      background-color: yellow;
+    }
+    .custom-bg-green {
+      background-color: green;
+    }
+    .custom-bg-red {
+      background-color: red;
+    }
+    .custom-bg-lightblue {
+      background-color: lightblue;
+    }
+    .custom-bg-gray {
+      background-color: gray;
+    }
+    .custom-bg-dark {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Titolo principale -->
+  <div class="row">
+    <div class="col text-center">
+      <h1>Pratica con il Grid System e più desiderato</h1>
+    </div>
+  </div>
+
+  <!-- Esercizio 1 -->
+  <div class="row">
+    <div class="col text-center">
+      <h2>Esercizio 1</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 custom-bg-blue text-white p-3 border">
+      Colonna 1
+    </div>
+    <div class="col-md-4 custom-bg-blue text-white p-3 border">
+      Colonna 2
+    </div>
+    <div class="col-md-4 custom-bg-blue text-white p-3 border">
+      Colonna 3
+    </div>
+  </div>
+
+  <!-- Esercizio 2 -->
+  <div class="row">
+    <div class="col text-center">
+      <h2>Esercizio 2</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4 custom-bg-yellow text-black p-3 border">
+      Colonna 1
+    </div>
+    <div class="col-sm-12 col-md-4 custom-bg-yellow text-black p-3 border">
+      Colonna 2
+    </div>
+    <div class="col-sm-12 col-md-4 custom-bg-yellow text-black p-3 border">
+      Colonna 3
+    </div>
+  </div>
+
+  <!-- Esercizio 3 -->
+  <div class="row">
+    <div class="col text-center">
+      <h2>Esercizio 3</h2>
+    </div>
+  </div>
+  <!-- Griglie per i breakpoint -->
+  <div class="row">
+    <div class="col-12 custom-bg-green text-white p-3 border">
+      Griglia per Mobile
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-4 custom-bg-green text-white p-3 border">
+      Griglia per Tablet
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 custom-bg-green text-white p-3 border">
+      Griglia per Desktop
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 custom-bg-green text-white p-3 border">
+      Griglia per Large Desktop
+    </div>
+  </div>
+
+  <!-- Esercizio 4 -->
+  <div class="row">
+    <div class="col text-center">
+      <h2>Esercizio 4</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 custom-bg-red text-white p-3 border">
+      Colonna 1
+    </div>
+    <div class="col-md-4 custom-bg-red text-white p-3 border">
+      Colonna 2
+    </div>
+    <div class="col-md-4 custom-bg-red text-white p-3 border">
+      Colonna 3
+    </div>
+  </div>
+
+  <!-- Esercizio 5 -->
+  <div class="row">
+    <div class="col text-center">
+      <h2>Esercizio 5</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 custom-bg-lightblue text-white p-3 border">
+      Colonna Esterna
+      <div class="row">
+        <div class="col-md-6 custom-bg-gray text-white p-3 border">
+          Colonna Interna 1
+        </div>
+        <div class="col-md-6 custom-bg-gray text-white p-3 border">
+          Colonna Interna 2
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 custom-bg-lightblue text-white p-3 border">
+      Colonna Esterna 2
+    </div>
+  </div>
+
+  <!-- Esercizio 6 -->
+  <div class="row">
+    <div class="col text-center">
+      <h2>Esercizio 6</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 custom-bg-dark text-white p-3 border">
+      Colonna 1
+    </div>
+    <div class="col-md-4 custom-bg-dark text-white p-3 offset-md-2 border">
+      Colonna 2 (spostata di 2 posizioni)
+    </div>
+  </div>
+
+</div>
+
+<!-- Script di Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
