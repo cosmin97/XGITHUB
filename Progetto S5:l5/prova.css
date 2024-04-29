@@ -1,0 +1,327 @@
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+header{
+  background-color: #FFC017;
+  margin-top: -2em;
+}
+
+#firstSectionHeader{
+  background-color: #FFC017;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding:25px 0;
+  padding-top: 50px;
+  z-index: 999;
+  transition: background-color 1s ease; /* transizione  */
+
+}
+
+#headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#firstSectionHeader.white {
+  background-color: white;
+}
+
+#firstSectionHeader.white nav ul a:last-child {
+  background-color: #1a8917;
+}
+
+
+
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+
+nav ul a{
+  padding-left: 2em;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: black;
+  cursor: pointer;
+}
+
+nav ul a:last-child{
+  border-radius: 99em;
+  color: white;
+  background-color: black;
+  margin-left: 16px;
+  font-size: 14px;
+}
+
+#secondSectionHeader{
+  padding-top: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#stayCurious{
+  margin-left: 10%;
+  width: 60%;
+}
+
+
+svg{
+height: 105%;
+}
+
+#svgContainer{
+  position: static;
+  overflow:hidden;
+}
+
+#stayCurious h1{
+  font-family: "Spectral", serif;
+  font-size: 90px;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+#stayCurious p{
+  font-size: 24px;
+  padding-bottom: 2em;
+  width:50%;
+}
+
+#stayCurious button{
+  font-size:20px;
+  padding:8px 50px;
+  color:white;
+  background-color:#191919;
+  border-radius: 99em;
+  cursor: pointer;
+}
+
+#stayCurious button:hover{
+  background-color:#000000;
+}
+
+
+#arrivo{ 
+  height: 2em;
+  border-bottom: 0.5px solid black;
+  margin-top: -2em;
+}
+
+
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+main{
+  margin:2em auto;
+  width: 80%;
+  height: 100vh;
+}
+
+
+
+
+#trending,figcaption,h3,h2,#stayCurious p{
+color: black;
+}
+
+#trending{
+  display: flex;
+  align-items: center;
+}
+
+#trending img{
+  padding-right: 0.5em;
+}
+
+#trending h3{
+  font-weight: bolder;
+}
+
+.imgFirstMainSection {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.imgFirstMainSection img {
+  border-radius: 50%;
+  margin-right: 0.7em;
+  width: 2em;
+}
+
+.imgFirstMainSection .noBorder,#secondSectionMain .left .firstASecondSection .notRound {
+  border-radius: 10%;
+}
+
+figcaption{
+  font-weight:bold ;
+  font-size: 0.85em;
+}
+
+.firstSectionMain{
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.firstSectionMain h3{
+  font-size: 1em ;
+  font-weight:bold ;
+  padding-bottom: 0.5em;
+}
+
+.star{
+  display: flex;
+  align-items: center;
+}
+.star img{
+  padding-left: 0.2em;
+}
+
+
+.firstSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+
+#sectionTwo{
+  margin-top: 5em;
+}
+
+
+.firstASecondSection{
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.6em;
+}
+
+#secondSectionMain div img{
+  border-radius: 50%;
+  margin-right: 0.7em;
+  width: 2em;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 0.7em;
+}
+
+p{
+  color: #6B6B6B;
+}
+
+#secondSectionMain .star2 img{
+  width: 1.5em;
+  padding-left: 0.5em;
+}
+
+.star2 div{
+  display: flex;
+  align-items: center;
+
+}
+
+.star2{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+#secondSectionMain .star2 .bookmark{
+  width: 2em;
+}
+
+#secondSectionMain .imgSquare{
+  width: 60%;
+  height:100%;
+  margin-left: 2em;
+  border-radius: 0%;
+}
+#secondSectionMain div{
+  margin-bottom: 0;
+}
+
+#secondSectionMain{
+  display: flex;
+  margin-bottom: 2em;
+  justify-content: space-between;
+}
+
+.left{
+  width:100%;
+}
+
+.right{
+  width:20%;
+}
+
+#sectionTwo{
+  display: flex;
+}
+
+#mainSectionSecondSection{
+  width: 65%;
+}
+
+
+aside {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  height: 100%;
+  top:7em;
+}
+
+
+
+
+
+#firstSectionAside{
+  width:80%;
+  margin-bottom: 5em;
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#firstSectionAside a {
+  color:#6B6B6B;
+  margin-left:1em;
+  margin-bottom: 2em;
+  font-size: 0.9em;
+}
+
+
+#secondSectionAside{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#secondSectionAside a{
+  color:#6B6B6B;
+  margin-right:1.5em;
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+}
+
