@@ -1,0 +1,274 @@
+body{
+    background-color: #141414;
+    overflow-x: hidden;
+    width: 100vw;
+    /* position: relative; */
+}
+
+.netflix-padding-left{
+    padding-left: 57px;
+}
+
+
+.netflix-padding-right{
+    padding-right: 57px;
+}
+@media(max-width:767.98px){
+    .netflix-padding-left{
+        padding-left: 10px !important;
+    }
+    
+    
+    .netflix-padding-right{
+        padding-right: 10px !important;
+    }
+    .navbar-brand img{
+        width: 43px;
+   }
+   .navbar{
+       padding-top: unset !important;
+       padding-bottom: unset !important;
+   }
+   i{
+       font-size: 12px;
+       cursor: pointer;
+       padding: 5px !important;
+   }
+   .netflix-profile{
+       margin-left: 5px ;
+   }
+   .netflix-dropdown-box{
+    display: block;
+}
+.netflix-nav{
+    display: none !important;
+}
+
+}
+
+.netflix-navbar{
+    top: 0;
+    position: fixed; /*in alto*/
+    margin-bottom: 20px;
+    /* background-color: #0C0C0C !important; */
+    z-index: 1000;
+    transition: background 0.2s linear;
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar-brand img{
+     width: 100px;
+}
+
+.netflix-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.netflix-row .left{
+    width: max-content
+}
+.netflix-row .right{
+    width: max-content
+}
+
+.netflix-dropdown-box{
+    display: none;
+}
+
+.netflix-dropdown{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 9px !important;
+}
+
+.netflix-dropdown-box .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.784);
+    font-size: 9px !important;
+    color: #fff !important;
+    margin-left: -80px;
+    border-top: 3px solid #fff;
+    margin-top: 30px;
+}
+
+.netflix-dropdown-box .dropdown-menu .dropdown-item{
+     color: rgba(255, 255, 255, 0.646);
+     text-align: center;
+     width: 250px;
+     font-size: 15px;
+     padding: 10px 20px;
+}
+
+.netflix-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.133);
+    color: #fff;
+}
+
+i{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.netflix-profile{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.netflix-nav{
+    display: block ;
+    align-items: center;
+}
+
+.netflix-nav button{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.623);
+    border: none;
+    font-size: 13px;
+}
+
+.netflix-nav button:hover{
+    color: #fff;
+}
+/* styles.css */
+.genres-dropdown{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.genres-dropdown-box .dropdown-menu{
+    background-color:rgba(0, 0, 0, 0.784);
+    color: white !important;
+}
+.genres-dropdown-box .dropdown-menu .dropdown-item{
+    color: rgba(255, 255, 255, 0.770);
+}
+.genres-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.133);
+}
+
+
+
+
+
+
+.trending-now {
+    color: white;
+    padding-top: 50px; /* Regola il margine superiore a tuo piacimento */
+  }
+
+
+
+
+.card{
+    width: 250px;
+    background-color: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+
+
+.card:hover{
+    transform: scaleX(1.4) scaleY(1.4);
+    z-index: 10;
+}
+
+
+.card-body{
+    display: none;
+    /* height: 0px; */
+    padding: 10px 15px;
+    position: absolute;
+    background-color: #141414;
+    top: 120px;
+    width: 100%;
+}
+
+
+.card-icon{
+    color: #fff;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.card:hover > .card-body{
+    display: block;
+    /* height: max-content !important; */
+}
+
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.tab-change-btn{
+    border: none;
+    width: 30px !important;
+}
+
+
+.margin-right{
+    margin-right: 100px;
+}
+
+.netflix-card-text{
+    font-size: 12px ;
+}
+
+.position-slider2{
+    top: 10px !important;
+    position: absolute !important;
+}
+
+.margin-title2{
+    margin-top: 33px;
+}
+
+.position-slider3{
+    top: 10px !important;
+    position: absolute !important;
+}
+
+
+.footer{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px ;
+    color: rgba(255, 255, 255, 0.367);
+    font-weight: 100;
+}
+
+
+.service-btn{
+    background-color: transparent;
+     margin-left: 30px;
+      color: rgba(255, 255, 255, 0.367);
+      border: 1px solid rgba(255, 255, 255, 0.367);
+      font-size: 15px;
+      font-weight: 100;
+}
+
+.copy-right{
+    font-size: 15px;
+      font-weight: 200;
+      color: rgb(249, 14, 14);
+      margin-left: 28px;
+}

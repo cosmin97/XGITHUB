@@ -1,0 +1,120 @@
+.genres-dropdown{
+    background-color: transparent;
+    color: white;
+    
+}
+
+.genres-dropdown-box .dropdown-menu{
+    background-color:rgba(0, 0, 0, 0.784);
+    color: white !important;
+}
+.genres-dropdown-box .dropdown-menu .dropdown-item{
+    color: rgba(255, 255, 255, 0.770);
+}
+.genres-dropdown-box .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.133);
+}
+body {
+    color:white;
+  background-color: #141414;
+}
+.profile-image {
+    height: 30%;
+    padding-left: 6rem;
+
+}
+.profile-text {
+  margin-top: 10px;
+}
+.gray-background {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+}
+.edit-profile{
+    padding-left: 20px;
+}
+
+/* Aggiunta per rimpicciolire l'immagine sopra il div container */
+.top-image {
+  max-width: 100%; /* Imposta la larghezza massima dell'immagine */
+  width: 15%;
+}
+/* Personalizzazione del pulsante "Edit" */
+.btn-edit {
+border-radius: 0; /* Rimuove il bordo arrotondato */
+border: 2px solid white; /* Imposta il bordo bianco */
+background-color: #141414; /* Imposta il colore di sfondo nero */
+color: white; /* Imposta il testo bianco */
+}
+/* Personalizzazione dei bottoni sottostanti */
+.btn-group .btn {
+border-radius: 0; /* Rimuove il bordo arrotondato */
+border: 2px solid white; /* Imposta il bordo bianco */
+background-color: #141414; /* Imposta il colore di sfondo nero */
+color: white; /* Imposta il testo bianco */
+padding: 5px 10px; /* Aggiunge padding laterale per separare i bottoni */
+margin-right: 10px; /* Aggiunge margine destro per separare i bottoni */
+}
+/* Linea grigia tra "Edit Profile" e il div sottostante */
+.edit-profile + .row {
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px; /* Aggiunge spazio tra la linea e il contenuto sottostante */
+margin-bottom: 10px; /* Aggiunge spazio tra i due elementi */
+}
+
+/* Linea grigia sotto il dropdown */
+.genres-dropdown-box {
+border-bottom: 1px solid #ccc;
+margin-bottom: 10px; /* Aggiunge spazio tra il dropdown e il contenuto sottostante */
+padding-bottom: 10px; /* Aggiunge spazio tra la linea e il contenuto sottostante */
+}
+
+/* Linea grigia sotto il tasto "Edit" */
+.btn-edit {
+border-bottom: 1px solid #ccc;
+margin-bottom: 10px; /* Aggiunge spazio tra il tasto "Edit" e il contenuto sottostante */
+padding-bottom: 10px; /* Aggiunge spazio tra la linea e il contenuto sottostante */
+}
+
+/* Linea grigia sopra i bottoni alla fine */
+.btn-group {
+border-top: 1px solid #ccc;
+padding-top: 10px; /* Aggiunge spazio tra i bottoni e la linea sopra */
+margin-top: 10px; /* Aggiunge spazio tra i bottoni e il contenuto sottostante */
+width: 100%;
+}
+/* Linea grigia sotto l'h5 "Edit Profile" */
+.edit-profile {
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px; /* Aggiunge spazio tra la linea e il contenuto sottostante */
+margin-bottom: 10px; /* Aggiunge spazio tra la linea e il contenuto sottostante */
+}
+
+
+.grey-background{
+    background-color: grey;
+}
+.dark-grey-background {
+    background-color: #333; /* Cambia il colore di sfondo come preferisci */
+    padding: 5px; /* Aggiungi spaziatura se necessario */
+    border-radius: 5px; /* Aggiungi bordi arrotondati se necessario */
+   
+}
+.btn-custom {
+    background-color: #333; /* Grigio scuro */
+    color: white; /* Testo bianco */
+    padding: 8px 12px; /* Padding per il pulsante */
+    border: none; /* Rimuove il bordo */
+    border-radius: 5px; /* Bordo arrotondato */
+}
+.btn-dark-grey {
+    background-color: #141414;
+    border: none;
+  }
+  .btn-transparent{
+    background-color: #141414;
+    border: none;
+    border: 1px solid white;
+  }
+ 
