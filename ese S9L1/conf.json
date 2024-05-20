@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",                        // Target ECMAScript version
+      "module": "commonjs",                   // Module code generation
+      "strict": true,                         // Enable all strict type-checking options
+      "esModuleInterop": true,                // Enable import interop between ES modules and CommonJS
+      "skipLibCheck": true,                   // Skip type checking of declaration files
+      "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+      "outFile": "./dist/script.js",          // Concatenate and emit output to single file
+      "rootDir": "./src",                     // Specify the root directory of input files
+      "sourceMap": true                       // Generates corresponding .map file
+    },
+    "include": [
+      "src/**/*.ts"                           // Include all .ts files in the src directory and subdirectories
+    ],
+    "exclude": [
+      "node_modules"                          // Exclude node_modules directory
+    ]
+  }
