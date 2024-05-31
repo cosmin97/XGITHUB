@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Todos</h1>
+  <div *ngFor="let todo of todos" [ngClass]="{'completed': todo.completed, 'pending': !todo.completed}">
+    <input type="checkbox" [checked]="todo.completed" (change)="updateTodoStatus(todo)">
+    <span>{{ todo.todo }}</span>
+    <span> - {{ getUser(todo.userId)?.firstName }} {{ getUser(todo.userId)?.lastName }}</span>
+  </div>
+</div>
