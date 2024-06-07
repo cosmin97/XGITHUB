@@ -1,0 +1,277 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mario",
+      "surname": "Rossi",
+      "email": "mario.rossi@example.com",
+      "password": "$2a$10$OPHvFM/H4v5kdvbhP/MzLuWekV.tUcOZRbUw/jSqv5CpexJRWpN3W"
+    },
+    {
+      "email": "ale.maz097@gmail.com",
+      "password": "$2a$10$WDxxUeYxfeU0q9YDbvKxVOi71xn0k6pi2CWzZTRBrkbOe8miEnbsK",
+      "name": "Alessandro",
+      "id": 2
+    },
+    {
+      "email": "m@g.c",
+      "password": "$2a$10$EHRoBpukHa.FXL95CgHFKOfQj4yjZoYsHdppC7/cKD2lH5n/u0Obm",
+      "name": "CONSOLE",
+      "id": 3
+    },
+    {
+      "email": "a@b.c",
+      "password": "$2a$10$I8ktkF9zXfn29NGQarTGzu6iJ5nPPUhOmeEscvo.Dwf.kBUcpj3ui",
+      "name": "a",
+      "id": 4
+    },
+    {
+      "email": "alb@gmail.com",
+      "password": "$2a$10$sf3jWAKKN2QQETkX4OpnKu1PyWiqDbY5L4gmAIuakPPJorDVaUKGK",
+      "name": "Alberto",
+      "id": 5
+    }
+  ],
+  "movies-popular": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "description": "Inception è un film del 2010 scritto, diretto e prodotto da Christopher Nolan e interpretato da Leonardo DiCaprio, Tom Hardy, Cillian Murphy, Marion Cotillard, Ellen Page, Joseph Gordon-Levitt e Michael Caine.",
+      "image": "https://example.com/inception.jpg",
+      "duration": "2h 28min",
+      "rating": 8.8
+    },
+    {
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "description": "Le ali della libertà (The Shawshank Redemption) è un film del 1994 scritto e diretto da Frank Darabont. Il film è tratto dal racconto Rita Hayworth e la redenzione di Shawshank incluso nella raccolta Stagioni diverse di Stephen King.",
+      "image": "https://example.com/shawshank_redemption.jpg",
+      "duration": "2h 22min",
+      "rating": 9.3
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "description": "Il cavaliere oscuro (The Dark Knight) è un film del 2008 diretto da Christopher Nolan. La sceneggiatura è stata scritta da David S. Goyer e lo stesso Nolan. È il seguito di Batman Begins (2005), anch'esso diretto da Nolan.",
+      "image": "https://example.com/dark_knight.jpg",
+      "duration": "2h 32min",
+      "rating": 9
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "description": "Pulp Fiction è un film del 1994 diretto da Quentin Tarantino. Il film è conosciuto per la sua trama non lineare, che mescola diverse storie intorno a gangster, criminali e boxeur.",
+      "image": "https://example.com/pulp_fiction.jpg",
+      "duration": "2h 34min",
+      "rating": 8.9
+    },
+    {
+      "id": 5,
+      "title": "Fight Club",
+      "description": "Fight Club è un film del 1999 diretto da David Fincher, basato sull'omonimo romanzo di Chuck Palahniuk. Il film è noto per i suoi temi controversi e la sua rappresentazione della disaffezione e dell'alienazione nella società moderna.",
+      "image": "https://example.com/fight_club.jpg",
+      "duration": "2h 19min",
+      "rating": 8.8
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "description": "Forrest Gump è un film del 1994 diretto da Robert Zemeckis e interpretato da Tom Hanks, Robin Wright Penn, Gary Sinise e Sally Field. Il film racconta le avventure di Forrest Gump, un uomo semplice che, a dispetto della sua ingenuità, riuscirà a partecipare, spesso senza rendersene conto, a alcuni tra gli eventi più significativi della storia degli Stati Uniti.",
+      "image": "https://example.com/forrest_gump.jpg",
+      "duration": "2h 22min",
+      "rating": 8.8
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "description": "The Matrix è un film del 1999 scritto e diretto dai fratelli Andy e Larry Wachowski. È interpretato da Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss e Hugo Weaving.",
+      "image": "https://example.com/the_matrix.jpg",
+      "duration": "2h 16min",
+      "rating": 8.7
+    },
+    {
+      "id": 8,
+      "title": "Interstellar",
+      "description": "Interstellar è un film del 2014 diretto da Christopher Nolan e interpretato da Matthew McConaughey, Anne Hathaway, Jessica Chastain e Michael Caine. Il film è incentrato sulle vicende di un gruppo di astronauti che cercano una nuova casa per l'umanità in un universo distante e in rapido deterioramento.",
+      "image": "https://example.com/interstellar.jpg",
+      "duration": "2h 49min",
+      "rating": 8.6
+    },
+    {
+      "id": 9,
+      "title": "Gladiator",
+      "description": "Gladiator è un film del 2000 diretto da Ridley Scott e interpretato da Russell Crowe, Joaquin Phoenix, Connie Nielsen e Oliver Reed. Il film è ambientato nell'antica Roma e racconta la storia di Massimo Decimo Meridio, un generale romano che viene tradito e ridotto a schiavo, ma che riesce a tornare in libertà e a vendicarsi dell'imperatore.",
+      "image": "https://example.com/gladiator.jpg",
+      "duration": "2h 35min",
+      "rating": 8.5
+    },
+    {
+      "id": 10,
+      "title": "The Godfather",
+      "description": "Il padrino (The Godfather) è un film del 1972 diretto da Francis Ford Coppola e interpretato da Marlon Brando, Al Pacino, James Caan, Robert Duvall e Diane Keaton. Il film è basato sul romanzo omonimo di Mario Puzo e racconta la storia della famiglia mafiosa dei Corleone, con particolare attenzione al personaggio di Michael Corleone, interpretato da Al Pacino.",
+      "image": "https://example.com/godfather.jpg",
+      "duration": "2h 55min",
+      "rating": 9.2
+    },
+    {
+      "id": 11,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "Il Signore degli Anelli - La Compagnia dell'Anello (The Lord of the Rings: The Fellowship of the Ring) è un film del 2001 diretto da Peter Jackson. È il primo capitolo della trilogia de Il Signore degli Anelli, basata sull'omonimo romanzo di J.R.R. Tolkien.",
+      "image": "https://example.com/lord_of_the_rings1.jpg",
+      "duration": "2h 58min",
+      "rating": 8.8
+    },
+    {
+      "id": 12,
+      "title": "The Lord of the Rings: The Two Towers",
+      "description": "Il Signore degli Anelli - Le due torri (The Lord of the Rings: The Two Towers) è un film del 2002 diretto da Peter Jackson. È il secondo capitolo della trilogia de Il Signore degli Anelli, basata sull'omonimo romanzo di J.R.R. Tolkien.",
+      "image": "https://example.com/lord_of_the_rings2.jpg",
+      "duration": "2h 59min",
+      "rating": 8.7
+    },
+    {
+      "id": 13,
+      "title": "The Lord of the Rings: The Return of the King",
+      "description": "Il Signore degli Anelli - Il ritorno del re (The Lord of the Rings: The Return of the King) è un film del 2003 diretto da Peter Jackson. È il terzo capitolo della trilogia de Il Signore degli Anelli, basata sull'omonimo romanzo di J.R.R. Tolkien.",
+      "image": "https://example.com/lord_of_the_rings3.jpg",
+      "duration": "3h 21min",
+      "rating": 8.9
+    },
+    {
+      "id": 14,
+      "title": "Avatar",
+      "description": "Avatar è un film del 2009 diretto da James Cameron. Il film è ambientato nel 2154 su Pandora, una luna gigante in orbita attorno al pianeta Polifemo, dove l'umanità è impegnata in un'operazione di estrazione di un minerale prezioso, l'unobtainium.",
+      "image": "https://example.com/avatar.jpg",
+      "duration": "2h 42min",
+      "rating": 7.8
+    },
+    {
+      "id": 15,
+      "title": "Titanic",
+      "description": "Titanic è un film del 1997 diretto da James Cameron. Il film racconta la storia d'amore tra Jack e Rose, interpretati rispettivamente da Leonardo DiCaprio e Kate Winslet, a bordo del transatlantico Titanic durante il suo viaggio inaugurale nel 1912.",
+      "image": "https://example.com/titanic.jpg",
+      "duration": "3h 15min",
+      "rating": 7.8
+    },
+    {
+      "id": 16,
+      "title": "The Silence of the Lambs",
+      "description": "Il silenzio degli innocenti (The Silence of the Lambs) è un film del 1991 diretto da Jonathan Demme e interpretato da Jodie Foster e Anthony Hopkins. Il film è basato sul romanzo omonimo di Thomas Harris.",
+      "image": "https://example.com/silence_of_the_lambs.jpg",
+      "duration": "1h 58min",
+      "rating": 8.6
+    },
+    {
+      "id": 17,
+      "title": "Forrest Gump",
+      "description": "Forrest Gump è un film del 1994 diretto da Robert Zemeckis e interpretato da Tom Hanks, Robin Wright Penn, Gary Sinise e Sally Field. Il film racconta le avventure di Forrest Gump, un uomo semplice che, a dispetto della sua ingenuità, riuscirà a partecipare, spesso senza rendersene conto, a alcuni tra gli eventi più significativi della storia degli Stati Uniti.",
+      "image": "https://example.com/forrest_gump2.jpg",
+      "duration": "2h 22min",
+      "rating": 8.8
+    },
+    {
+      "id": 18,
+      "title": "The Green Mile",
+      "description": "Il miglio verde (The Green Mile) è un film del 1999 diretto da Frank Darabont e tratto dal romanzo omonimo di Stephen King. Il film racconta la storia di Paul Edgecomb, un funzionario di una prigione che si occupa di un condannato a morte con poteri miracolosi.",
+      "image": "https://example.com/green_mile.jpg",
+      "duration": "3h 9min",
+      "rating": 8.6
+    },
+    {
+      "id": 19,
+      "title": "The Lion King",
+      "description": "Il re leone (The Lion King) è un film del 1994 diretto da Roger Allers e Rob Minkoff. Il film è prodotto dalla Walt Disney Feature Animation e distribuito dalla Walt Disney Pictures. Il film racconta la storia di Simba, un giovane leone destinato a diventare re della Pridelands.",
+      "image": "https://example.com/lion_king.jpg",
+      "duration": "1h 28min",
+      "rating": 8.5
+    },
+    {
+      "id": 20,
+      "title": "Inglourious Basterds",
+      "description": "Bastardi senza gloria (Inglourious Basterds) è un film del 2009 diretto da Quentin Tarantino. Il film è ambientato durante la seconda guerra mondiale e racconta una storia di vendetta contro i nazisti.",
+      "image": "https://example.com/inglourious_basterds.jpg",
+      "duration": "2h 33min",
+      "rating": 8.3
+    },
+    {
+      "id": 21,
+      "title": "The Pianist",
+      "description": "Il pianista (The Pianist) è un film del 2002 diretto da Roman Polański e interpretato da Adrien Brody. Il film è basato sulle memorie omonime di Władysław Szpilman, un pianista ebreo polacco che sopravvisse all'Olocausto.",
+      "image": "https://example.com/pianist.jpg",
+      "duration": "2h 30min",
+      "rating": 8.5
+    },
+    {
+      "id": 22,
+      "title": "The Departed",
+      "description": "The Departed - Il bene e il male (The Departed) è un film del 2006 diretto da Martin Scorsese e interpretato da Leonardo DiCaprio, Matt Damon, Jack Nicholson e Mark Wahlberg. Il film è un remake del film cinese Infernal Affairs.",
+      "image": "https://example.com/departed.jpg",
+      "duration": "2h 31min",
+      "rating": 8.5
+    },
+    {
+      "id": 23,
+      "title": "Schindler's List",
+      "description": "La lista di Schindler (Schindler's List) è un film del 1993 diretto da Steven Spielberg e interpretato da Liam Neeson, Ben Kingsley, Ralph Fiennes e Caroline Goodall. Il film racconta la storia di Oskar Schindler, un imprenditore tedesco che salvò la vita di più di mille ebrei durante l'Olocausto.",
+      "image": "https://example.com/schindlers_list.jpg",
+      "duration": "3h 15min",
+      "rating": 8.9
+    },
+    {
+      "id": 24,
+      "title": "The Prestige",
+      "description": "Il prestigio (The Prestige) è un film del 2006 diretto da Christopher Nolan e interpretato da Hugh Jackman, Christian Bale, Michael Caine e Scarlett Johansson. Il film è basato sull'omonimo romanzo di Christopher Priest.",
+      "image": "https://example.com/prestige.jpg",
+      "duration": "2h 10min",
+      "rating": 8.5
+    },
+    {
+      "id": 25,
+      "title": "Gladiator",
+      "description": "Gladiator è un film del 2000 diretto da Ridley Scott e interpretato da Russell Crowe, Joaquin Phoenix, Connie Nielsen e Oliver Reed. Il film è ambientato nell'antica Roma e racconta la storia di Massimo Decimo Meridio, un generale romano che viene tradito e ridotto a schiavo, ma che riesce a tornare in libertà e a vendicarsi dell'imperatore.",
+      "image": "https://example.com/gladiator2.jpg",
+      "duration": "2h 35min",
+      "rating": 8.5
+    },
+    {
+      "id": 26,
+      "title": "The Godfather: Part II",
+      "description": "Il padrino - Parte II (The Godfather: Part II) è un film del 1974 diretto da Francis Ford Coppola e interpretato da Al Pacino, Robert Duvall, Diane Keaton e Robert De Niro. Il film è il sequel de Il padrino del 1972 e racconta sia la storia di Michael Corleone che quella del padre Vito Corleone.",
+      "image": "https://example.com/godfather2.jpg",
+      "duration": "3h 22min",
+      "rating": 9
+    },
+    {
+      "id": 27,
+      "title": "The Dark Knight Rises",
+      "description": "Il cavaliere oscuro - Il ritorno (The Dark Knight Rises) è un film del 2012 diretto da Christopher Nolan e interpretato da Christian Bale, Anne Hathaway, Tom Hardy, Gary Oldman, Joseph Gordon-Levitt e Michael Caine. È il terzo capitolo della trilogia di Batman di Nolan.",
+      "image": "https://example.com/dark_knight_rises.jpg",
+      "duration": "2h 45min",
+      "rating": 8.4
+    },
+    {
+      "id": 28,
+      "title": "The Intouchables",
+      "description": "Intoccabili (The Intouchables) è un film del 2011 diretto da Olivier Nakache e Éric Toledano. Il film è ispirato alla storia vera di Philippe Pozzo di Borgo e del suo badante Abdel Sellou.",
+      "image": "https://example.com/intouchables.jpg",
+      "duration": "1h 52min",
+      "rating": 8.5
+    },
+    {
+      "id": 29,
+      "title": "The Wolf of Wall Street",
+      "description": "Il lupo di Wall Street (The Wolf of Wall Street) è un film del 2013 diretto da Martin Scorsese e interpretato da Leonardo DiCaprio, Jonah Hill, Margot Robbie e Matthew McConaughey. Il film è basato sulle memorie omonime di Jordan Belfort.",
+      "image": "https://example.com/wolf_of_wall_street.jpg",
+      "duration": "3h",
+      "rating": 8.2
+    },
+    {
+      "id": 30,
+      "title": "The Sixth Sense",
+      "description": "Sesto senso (The Sixth Sense) è un film del 1999 diretto da M. Night Shyamalan e interpretato da Bruce Willis e Haley Joel Osment. Il film è noto per il suo finale a sorpresa.",
+      "image": "https://example.com/sixth_sense.jpg",
+      "duration": "1h 47min",
+      "rating": 8.1
+    }
+  ]
+}
