@@ -1,0 +1,78 @@
+﻿@model WebApplicationCinema.Models.Biglietto
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Prenotazione Biglietti</h1>
+</div>
+
+<form asp-action="Prenota" method="post">
+    <div class="form-group">
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cognome"></label>
+        <input asp-for="Cognome" class="form-control" />
+        <span asp-validation-for="Cognome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Sala</label>
+        @foreach (var sala in ViewBag.Sale)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="radio" asp-for="Sala" value="@sala.Nome" />
+                <label class="form-check-label" for="Sala_@sala.Nome">@sala.Nome</label>
+            </div>
+        }
+        <span asp-validation-for="Sala" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Tipo di Biglietto</label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" asp-for="TipoBiglietto" value="Intero" />
+            <label class="form-check-label" for="TipoBiglietto_Intero">Intero</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" asp-for="TipoBiglietto" value="Ridotto" />
+            <label class="form-check-label" for="TipoBiglietto_Ridotto">Ridotto</label>
+        </div>
+        <span asp-validation-for="TipoBiglietto" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Prenota</button>
+</form>
+
+<h2>Stato delle Sale</h2>
+@foreach (var sala in ViewBag.Sale)
+{
+    <div>
+        <h3>@sala.Nome</h3>
+        <p>Posti Disponibili: @sala.PostiDisponibili</p>
+        <p>Biglietti Venduti: @sala.BigliettiVenduti</p>
+        <p>Biglietti Ridotti Venduti: @sala.BigliettiRidotti</p>
+    </div>
+}
+
+<h2>Lista biglietti venduti</h2>
+<ul>
+    @if (ViewBag.Biglietti != null)
+    {
+        @foreach (var biglietto in ViewBag.Biglietti)
+        {
+            <li>@biglietto.Nome @biglietto.Cognome - Sala: @biglietto.Sala, Tipo: @biglietto.TipoBiglietto</li>
+        }
+    }
+    else
+    {
+        <li>Nessun biglietto venduto.</li>
+    }
+</ul>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

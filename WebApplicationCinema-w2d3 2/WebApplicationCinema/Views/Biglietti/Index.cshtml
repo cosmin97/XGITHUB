@@ -1,0 +1,60 @@
+
+@model List<CinemaTicketApp.Models.CinemaHall>
+@{
+    ViewData["Title"] = "Ticket Sales";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Ticket Sales</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Hall</th>
+                <th>Tickets Sold</th>
+                <th>Reduced Tickets Sold</th>
+                <th>Total Capacity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hall in Model)
+            {
+                <tr>
+                    <td>@hall.HallName</td>
+                    <td>@hall.TicketsSold</td>
+                    <td>@hall.ReducedTicketsSold</td>
+                    <td>@hall.TotalSeats</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3 class="mt-4">Purchase Ticket</h3>
+
+    <form asp-action="Purchase" method="post">
+        <div class="form-group">
+            <label for="FirstName">First Name:</label>
+            <input type="text" class="form-control" id="FirstName" name="FirstName" required />
+        </div>
+        <div class="form-group">
+            <label for="LastName">Last Name:</label>
+            <input type="text" class="form-control" id="LastName" name="LastName" required />
+        </div>
+        <div class="form-group">
+            <label for="TicketType">Ticket Type:</label>
+            <select class="form-control" id="TicketType" name="TicketType">
+                <option value="Full">Full</option>
+                <option value="Reduced">Reduced</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="HallName">Hall:</label>
+            <select class="form-control" id="HallName" name="HallName">
+                <option value="SALA NORD">SALA NORD</option>
+                <option value="SALA EST">SALA EST</option>
+                <option value="SALA SUD">SALA SUD</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Purchase</button>
+    </form>
+</div>
