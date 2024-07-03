@@ -1,0 +1,13 @@
+Description,SQL Query
+Numero totale degli ordini,SELECT COUNT(*) AS TotalOrders FROM Orders;
+Numero totale di clienti,SELECT COUNT(*) AS TotalCustomers FROM Customers;
+Numero totale di clienti che abitano a Londra,SELECT COUNT(*) AS CustomersInLondon FROM Customers WHERE City = 'London';
+Media aritmetica del costo del trasporto di tutti gli ordini effettuati,SELECT AVG(Freight) AS AverageFreightCost FROM Orders;
+Media aritmetica del costo del trasporto dei soli ordini effettuati dal cliente 'BOTTM',SELECT AVG(Freight) AS AverageFreightCostForBOTTM FROM Orders WHERE CustomerID = 'BOTTM';
+Totale delle spese di trasporto effettuate raggruppate per id cliente,"SELECT CustomerID, SUM(Freight) AS TotalFreight FROM Orders GROUP BY CustomerID;"
+Numero totale di clienti raggruppati per città di appartenenza,"SELECT City, COUNT(*) AS NumberOfCustomers FROM Customers GROUP BY City;"
+Totale di UnitPrice * Quantity raggruppato per ogni ordine,"SELECT OrderID, SUM(UnitPrice * Quantity) AS TotalOrderValue FROM [Order Details] GROUP BY OrderID;"
+Totale di UnitPrice * Quantity solo dell'ordine con id=10248,"SELECT OrderID, SUM(UnitPrice * Quantity) AS TotalOrderValue FROM [Order Details] WHERE OrderID = 10248 GROUP BY OrderID;"
+Numero di prodotti censiti per ogni categoria,"SELECT CategoryID, COUNT(*) AS NumberOfProducts FROM Products GROUP BY CategoryID;"
+Numero totale di ordini raggruppati per paese di spedizione (ShipCountry),"SELECT ShipCountry, COUNT(*) AS TotalOrders FROM Orders GROUP BY ShipCountry;"
+Media del costo del trasporto raggruppati per paese di spedizione (ShipCountry),"SELECT ShipCountry, AVG(Freight) AS AverageFreightCost FROM Orders GROUP BY ShipCountry;"
